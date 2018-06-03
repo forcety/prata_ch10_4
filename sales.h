@@ -13,7 +13,7 @@ namespace SALES
          double min;
     public:
         Sales();// # default constructor
-        //Sales(const char * name, int hc);
+        Sales(const double ar[], int n);  // # main constructor
         ~Sales();
         int setSales();
         showSales() const;
